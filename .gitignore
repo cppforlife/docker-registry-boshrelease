@@ -1,5 +1,4 @@
 !src
-src/*
 config/dev.yml
 config/private.yml
 releases/*.tgz
