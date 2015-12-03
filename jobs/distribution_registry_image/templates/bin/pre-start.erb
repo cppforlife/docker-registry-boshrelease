@@ -1,9 +1,0 @@
-#!/bin/bash
-
-source /var/vcap/jobs/distribution_registry_image/helpers/ctl_setup.sh 'distribution_registry_image'
-
-time docker \
-  --host unix:///var/vcap/sys/run/docker/docker.sock \
-  load -i /var/vcap/packages/registry-image/distribution_registry.tgz
-    >>$LOG_DIR/$JOB_NAME.stdout.log \
-    2>>$LOG_DIR/$JOB_NAME.stderr.log

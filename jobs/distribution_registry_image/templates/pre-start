@@ -1,0 +1,7 @@
+#!/bin/bash
+
+export PATH=/var/vcap/packages/docker/bin:$PATH
+
+time docker \
+  --host unix:///var/vcap/sys/run/docker/docker.sock \
+  load -i /var/vcap/packages/registry-image/distribution_registry.tgz
