@@ -83,13 +83,13 @@ docker pull <IMAGE_NAME>
 - Tag the docker image to point to the registry
 
 ```
-docker tag <IMAGE_NAME> <DOCKER_VM_IP>:5000/<IMAGE_NAME>
+docker tag <IMAGE_NAME> [DOCKER_VM_IP>:5000 or URI]/<IMAGE_NAME>
 ```
 
 - Push the image to the registry
 
 ```
-docker push <DOCKER_VM_IP>:5000/<IMAGE_NAME>
+docker push [DOCKER_VM_IP>:5000 or URI]/<IMAGE_NAME>
 ```
 
 
