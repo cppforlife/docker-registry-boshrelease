@@ -1,0 +1,16 @@
+---
+packages:
+- name: registry-image
+  version: 0cff50b283f7904eef937b2806f619f657ff8805
+  fingerprint: 0cff50b283f7904eef937b2806f619f657ff8805
+  sha1: 8aa5322001614a2b7682b85bda4c69d914bb4203
+  dependencies: []
+jobs:
+- name: distribution_registry_image
+  version: afc12847bb985c86503a7d044ee320bef80cf718
+  fingerprint: afc12847bb985c86503a7d044ee320bef80cf718
+  sha1: 4855e273bf42a58889c51e1e655af0816e7e21f1
+commit_hash: d1e1ae01
+uncommitted_changes: true
+name: docker-registry
+version: '1'
